@@ -172,4 +172,8 @@ public static class VarDiffManager
 
         return true;
     }
+
+    private class PandaniteWorkerContext : WorkerContextBase
+    {
+    }
 }

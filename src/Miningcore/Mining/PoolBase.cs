@@ -382,6 +382,7 @@ Pool Fee:               {(poolConfig.RewardRecipients?.Any() == true ? poolConfi
  } catch (Exception ex) {
 
 }
+    }
 
     #region API-Surface
 
