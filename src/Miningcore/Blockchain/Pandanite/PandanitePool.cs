@@ -152,7 +152,7 @@ public class PandanitePool : PoolBase
             });
 
             if (minPayout.HasValue && minPayout > Config.PaymentProcessing.MinimumPayment) {
-                logger.Info(() => $"[{connection.ConnectionId}] Setting minimum payout to {minPayout} BMB");
+                logger.Info(() => $"[{connection.ConnectionId}] Setting minimum payout to {minPayout} PDN");
             }*/
         }
 
